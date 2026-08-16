@@ -33,7 +33,7 @@ export default function Hero() {
           transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
           className="text-lg md:text-xl text-gray-200 font-sans mb-12 max-w-2xl mx-auto font-light"
         >
-          Exclusive luxury properties and unparalleled service in the world's most sought-after locations.
+          Exclusive luxury properties and unparalleled service in the world&apos;s most sought-after locations.
         </motion.p>
 
         <motion.div 

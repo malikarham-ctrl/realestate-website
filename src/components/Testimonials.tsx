@@ -32,7 +32,7 @@ export default function Testimonials() {
               <div className="flex gap-1 text-accent mb-6">
                 {[...Array(5)].map((_, i) => <Star key={i} size={18} fill="currentColor" />)}
               </div>
-              <p className="text-gray-600 font-serif italic text-lg mb-8 leading-relaxed">"{t.text}"</p>
+              <p className="text-gray-600 font-serif italic text-lg mb-8 leading-relaxed">&quot;{t.text}&quot;</p>
               <div className="flex items-center gap-4">
                 <img src={t.image} alt={t.name} className="w-14 h-14 rounded-full object-cover" />
                 <div>

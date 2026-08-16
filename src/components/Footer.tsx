@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Facebook, Instagram, Twitter, Mail, MapPin, Phone } from 'lucide-react';
+import { Mail, MapPin, Phone } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -13,10 +13,10 @@ export default function Footer() {
             <p className="text-gray-300 mb-6 font-sans text-sm leading-relaxed">
               Redefining luxury real estate with unparalleled service and exclusive property listings worldwide.
             </p>
-            <div className="flex space-x-4">
-              <a href="#" className="text-gray-300 hover:text-accent transition-colors"><Facebook size={20} /></a>
-              <a href="#" className="text-gray-300 hover:text-accent transition-colors"><Instagram size={20} /></a>
-              <a href="#" className="text-gray-300 hover:text-accent transition-colors"><Twitter size={20} /></a>
+            <div className="flex space-x-4 text-sm font-sans">
+              <a href="#" className="text-gray-300 hover:text-accent transition-colors">Facebook</a>
+              <a href="#" className="text-gray-300 hover:text-accent transition-colors">Instagram</a>
+              <a href="#" className="text-gray-300 hover:text-accent transition-colors">Twitter</a>
             </div>
           </div>
           
